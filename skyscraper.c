@@ -78,11 +78,11 @@ void ft_create_playbook(int target_view[])
                                                         {
                                                             if (q != r && q != s && q != t && r != s && r != t && s != t && q != m && r != n && s != o && t != p && q != i && r != j && s != k && t != l)
                                                             {
-                                                                playbook[dim1][0] = i;                              //////////					//////
+                                                                playbook[dim1][0] = i;                              //////////                  //////
                                                                 playbook[dim1][1] = j;                          ////        ////                //////
                                                                 playbook[dim1][2] = k;                      ////                ////            //////
                                                                 playbook[dim1][3] = l;                  ////                        ////        //////
-                                                                playbook[dim1][4] = m;               ///                                ///	    //////
+                                                                playbook[dim1][4] = m;               ///                                ///     //////
                                                                 playbook[dim1][5] = n;               ///                                ///     //////
                                                                 playbook[dim1][6] = o;               ///                                ///     //////
                                                                 playbook[dim1][7] = p;               ///                                ///     //////
@@ -92,7 +92,7 @@ void ft_create_playbook(int target_view[])
                                                                 playbook[dim1][11] = t;              ///                                ///     //////
                                                                 playbook[dim1][12] = 10 - i - m - q;    /////                       ////        //////
                                                                 playbook[dim1][13] = 10 - j - n - r;        ////                ////            ///////////////////////////////
-                                                                playbook[dim1][14] = 10 - k - o - s;            ////		  ///               ///////////////////////////////
+                                                                playbook[dim1][14] = 10 - k - o - s;            ////          ///               ///////////////////////////////
                                                                 playbook[dim1][15] = 10 - l - p - t;                //////////                  ///////////////////////////////
                                                                 dim1++;
                                                             }
