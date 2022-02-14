@@ -2,7 +2,7 @@
 display the solution to terminal on every set of valid views
 
 # approach
-- create all possible but valid maps (i.e. no repetion in any row or column), and use it as a *playbook*
+- create all possible, valid maps (i.e. no repetition in any row or column), and use it as a *playbook*
 - calculate all the values of each view for the valid maps (i.e. create an array of view-values for each map), and use it as a *dictionary* for *playbook*
 - if you get a request with a set of views as an input, search for it in the *dictionary*, and get the related map from the *playbook*
 
