@@ -144,16 +144,6 @@ void ft_create_playbook(int target_view[])
         dictionary[dim1][13] = ft_count_blocks(playbook[dim1][7], playbook[dim1][6], playbook[dim1][5], playbook[dim1][4]);
         dictionary[dim1][14] = ft_count_blocks(playbook[dim1][11], playbook[dim1][10], playbook[dim1][9], playbook[dim1][8]);
         dictionary[dim1][15] = ft_count_blocks(playbook[dim1][15], playbook[dim1][14], playbook[dim1][13], playbook[dim1][12]);
-        i = 0;
-        while (i < 16)
-        {
-            i++;
-        }
-        i = 0;
-        while (i < 16)
-        {
-            i++;
-        }
         dim1--;
     }
     // search for matching
