@@ -9,3 +9,6 @@ display the solution to terminal on every set of valid views
 # usage
 `gcc skyscraper.c`                              // compile the code<br>
 `./a.out "4 3 2 1 1 2 2 2 4 3 2 1 1 2 2 2"`     // run with any set of views
+
+# todos
+- norminette will fail now (too many variables, line too long, too many functions in a file)
